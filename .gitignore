@@ -1,0 +1,2 @@
+# Ignore configuration files containing API keys
+Resources/Config.swift

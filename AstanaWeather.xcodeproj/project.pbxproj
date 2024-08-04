@@ -10,7 +10,19 @@
 		C732C0442C5F54D2006B2224 /* AstanaWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732C0432C5F54D2006B2224 /* AstanaWeatherApp.swift */; };
 		C732C0462C5F54D2006B2224 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732C0452C5F54D2006B2224 /* ContentView.swift */; };
 		C732C0482C5F54D3006B2224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C732C0472C5F54D3006B2224 /* Assets.xcassets */; };
-		C732C04B2C5F54D3006B2224 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C732C04A2C5F54D3006B2224 /* Preview Assets.xcassets */; };
+		C732C0582C5F5652006B2224 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732C0572C5F5652006B2224 /* Config.swift */; };
+		C732C05A2C5F5699006B2224 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732C0592C5F5699006B2224 /* Colors.swift */; };
+		C732C05D2C5F57A4006B2224 /* WeatherCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732C05C2C5F57A4006B2224 /* WeatherCard.swift */; };
+		C732C05F2C5F5970006B2224 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732C05E2C5F5970006B2224 /* WeatherService.swift */; };
+		C732C0612C5F5994006B2224 /* CurrentWeatherAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732C0602C5F5994006B2224 /* CurrentWeatherAPIModel.swift */; };
+		C732C0642C5F59EF006B2224 /* WeatherCardMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732C0632C5F59EF006B2224 /* WeatherCardMapper.swift */; };
+		C732C0662C5F5A36006B2224 /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732C0652C5F5A36006B2224 /* CurrentWeatherView.swift */; };
+		C732C0682C5F62BC006B2224 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732C0672C5F62BC006B2224 /* WeatherViewModel.swift */; };
+		C732C06A2C5F65FA006B2224 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732C0692C5F65FA006B2224 /* ForecastView.swift */; };
+		C732C06C2C5F6613006B2224 /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732C06B2C5F6613006B2224 /* DailyWeather.swift */; };
+		C732C06E2C5F6633006B2224 /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732C06D2C5F6633006B2224 /* DailyWeatherView.swift */; };
+		C732C0742C5F6D13006B2224 /* ForecastWeatherAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732C0732C5F6D12006B2224 /* ForecastWeatherAPIModel.swift */; };
+		C732C07A2C5F8342006B2224 /* IconMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732C0792C5F8342006B2224 /* IconMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +30,20 @@
 		C732C0432C5F54D2006B2224 /* AstanaWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstanaWeatherApp.swift; sourceTree = "<group>"; };
 		C732C0452C5F54D2006B2224 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C732C0472C5F54D3006B2224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C732C04A2C5F54D3006B2224 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C732C0572C5F5652006B2224 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		C732C0592C5F5699006B2224 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C732C05B2C5F56B7006B2224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C732C05C2C5F57A4006B2224 /* WeatherCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCard.swift; sourceTree = "<group>"; };
+		C732C05E2C5F5970006B2224 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		C732C0602C5F5994006B2224 /* CurrentWeatherAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherAPIModel.swift; sourceTree = "<group>"; };
+		C732C0632C5F59EF006B2224 /* WeatherCardMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCardMapper.swift; sourceTree = "<group>"; };
+		C732C0652C5F5A36006B2224 /* CurrentWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
+		C732C0672C5F62BC006B2224 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		C732C0692C5F65FA006B2224 /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		C732C06B2C5F6613006B2224 /* DailyWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeather.swift; sourceTree = "<group>"; };
+		C732C06D2C5F6633006B2224 /* DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherView.swift; sourceTree = "<group>"; };
+		C732C0732C5F6D12006B2224 /* ForecastWeatherAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWeatherAPIModel.swift; sourceTree = "<group>"; };
+		C732C0792C5F8342006B2224 /* IconMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +76,81 @@
 		C732C0422C5F54D2006B2224 /* AstanaWeather */ = {
 			isa = PBXGroup;
 			children = (
-				C732C0432C5F54D2006B2224 /* AstanaWeatherApp.swift */,
-				C732C0452C5F54D2006B2224 /* ContentView.swift */,
-				C732C0472C5F54D3006B2224 /* Assets.xcassets */,
-				C732C0492C5F54D3006B2224 /* Preview Content */,
+				C732C0512C5F54DE006B2224 /* Application */,
+				C732C0552C5F54FD006B2224 /* Views */,
+				C732C0542C5F54F4006B2224 /* ViewModels */,
+				C732C0532C5F54ED006B2224 /* Models */,
+				C732C0622C5F59DB006B2224 /* Utils */,
+				C732C0562C5F5502006B2224 /* Services */,
+				C732C0522C5F54E4006B2224 /* Resources */,
 			);
 			path = AstanaWeather;
 			sourceTree = "<group>";
 		};
-		C732C0492C5F54D3006B2224 /* Preview Content */ = {
+		C732C0512C5F54DE006B2224 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				C732C04A2C5F54D3006B2224 /* Preview Assets.xcassets */,
+				C732C0432C5F54D2006B2224 /* AstanaWeatherApp.swift */,
 			);
-			path = "Preview Content";
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C732C0522C5F54E4006B2224 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C732C05B2C5F56B7006B2224 /* Info.plist */,
+				C732C0472C5F54D3006B2224 /* Assets.xcassets */,
+				C732C0572C5F5652006B2224 /* Config.swift */,
+				C732C0592C5F5699006B2224 /* Colors.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C732C0532C5F54ED006B2224 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C732C05C2C5F57A4006B2224 /* WeatherCard.swift */,
+				C732C0602C5F5994006B2224 /* CurrentWeatherAPIModel.swift */,
+				C732C06B2C5F6613006B2224 /* DailyWeather.swift */,
+				C732C0732C5F6D12006B2224 /* ForecastWeatherAPIModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C732C0542C5F54F4006B2224 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C732C0672C5F62BC006B2224 /* WeatherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C732C0552C5F54FD006B2224 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C732C0452C5F54D2006B2224 /* ContentView.swift */,
+				C732C0652C5F5A36006B2224 /* CurrentWeatherView.swift */,
+				C732C0692C5F65FA006B2224 /* ForecastView.swift */,
+				C732C06D2C5F6633006B2224 /* DailyWeatherView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C732C0562C5F5502006B2224 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C732C05E2C5F5970006B2224 /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C732C0622C5F59DB006B2224 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C732C0632C5F59EF006B2224 /* WeatherCardMapper.swift */,
+				C732C0792C5F8342006B2224 /* IconMapper.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C732C04B2C5F54D3006B2224 /* Preview Assets.xcassets in Resources */,
 				C732C0482C5F54D3006B2224 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +223,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				C732C0462C5F54D2006B2224 /* ContentView.swift in Sources */,
+				C732C0642C5F59EF006B2224 /* WeatherCardMapper.swift in Sources */,
+				C732C06A2C5F65FA006B2224 /* ForecastView.swift in Sources */,
+				C732C05A2C5F5699006B2224 /* Colors.swift in Sources */,
+				C732C06E2C5F6633006B2224 /* DailyWeatherView.swift in Sources */,
+				C732C0662C5F5A36006B2224 /* CurrentWeatherView.swift in Sources */,
 				C732C0442C5F54D2006B2224 /* AstanaWeatherApp.swift in Sources */,
+				C732C0682C5F62BC006B2224 /* WeatherViewModel.swift in Sources */,
+				C732C0742C5F6D13006B2224 /* ForecastWeatherAPIModel.swift in Sources */,
+				C732C05D2C5F57A4006B2224 /* WeatherCard.swift in Sources */,
+				C732C06C2C5F6613006B2224 /* DailyWeather.swift in Sources */,
+				C732C07A2C5F8342006B2224 /* IconMapper.swift in Sources */,
+				C732C05F2C5F5970006B2224 /* WeatherService.swift in Sources */,
+				C732C0612C5F5994006B2224 /* CurrentWeatherAPIModel.swift in Sources */,
+				C732C0582C5F5652006B2224 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +373,7 @@
 				DEVELOPMENT_TEAM = ZTRB6BXZN6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstanaWeather/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -287,9 +386,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shakirkadirov.AstanaWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,6 +407,7 @@
 				DEVELOPMENT_TEAM = ZTRB6BXZN6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstanaWeather/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,9 +420,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shakirkadirov.AstanaWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
